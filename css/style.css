@@ -30,6 +30,13 @@ body {
   color: #666666;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
 .wrapper {
   overflow: hidden;
   min-height: 100%;
@@ -45,4 +52,35 @@ body {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+/* ----------Header---------- */
+.header {
+}
+.header__container {
+  padding: 5px 0;
+  display: flex;
+  gap: 131px;
+  align-items: center;
+  min-height: 152px;
+}
+.header__logo {
+}
+.herder__menu {
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+  gap: 56px;
+}
+.menu__item {
+}
+
+.menu__link {
+  color: rgba(18, 18, 18, 0.4);
+  font-weight: 500;
+}
+.menu__link:hover {
+  text-decoration: underline;
 }
