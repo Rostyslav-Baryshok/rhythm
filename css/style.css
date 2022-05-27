@@ -39,6 +39,18 @@ li {
   flex-direction: column;
 }
 /* ----------   ---------- */
+.title {
+  font-family: CalSans;
+  color: #121212;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.2;
+}
+.title span {
+  color: #ff6428;
+}
+/* ----------   ---------- */
+
 .page {
   flex: 1 1 auto;
 }
