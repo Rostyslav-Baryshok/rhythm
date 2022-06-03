@@ -69,6 +69,8 @@ li {
 }
 .page__why {
 }
+.page__reviews {
+}
 /* ----------   ---------- */
 [class*="__container"] {
   max-width: 1230px;
@@ -622,5 +624,33 @@ li {
   .why__items {
     justify-content: stretch;
     grid-template-columns: repeat(1, auto);
+  }
+}
+
+/* ----------Reviews---------- */
+.reviews {
+  padding: 240px 0;
+}
+.reviews__container {
+}
+.reviews__title {
+  margin-bottom: 100px;
+}
+.title {
+}
+@media (max-width: 991.98px) {
+  .reviews {
+    padding: 80px 0;
+  }
+  .reviews__title {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .reviews {
+    padding: 30px 0;
+  }
+  .reviews__title {
+    margin-bottom: 30px;
   }
 }
