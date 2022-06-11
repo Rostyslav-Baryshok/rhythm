@@ -824,6 +824,7 @@ li {
   max-width: 100%;
 }
 .favorite__images {
+  /* background-color: #df4d13; */
   flex: 0 1 50%;
   text-align: center;
 }
