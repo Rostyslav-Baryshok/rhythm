@@ -1073,8 +1073,8 @@ li {
   transform: translate(-50%, -50%);
   background-color: #dfdfdf;
   padding: 1rem 1.5rem;
-  width: 32rem;
-  height: 20rem;
+  max-width: 32rem;
+  height: 17rem;
   border-radius: 0.5rem;
 }
 
@@ -1106,6 +1106,7 @@ li {
 }
 
 .modal__list {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -1114,9 +1115,18 @@ li {
   margin-right: 10px;
 }
 
-.modal__text {
-  display: flex;
-  justify-content: center;
-  margin-top: 115px;
+@media (max-width: 695.98px) {
+  .modal__item:not(:last-child) {
+    margin-right: 0;
+  }
+  .modal__list {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .modal-content {
+    height: 20rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
