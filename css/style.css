@@ -299,7 +299,9 @@ li {
   padding-top: 80px;
   padding-bottom: 90px;
 }
-
+.body-store__wrap:not(:last-child) {
+  margin-bottom: 96px;
+}
 .store__title {
   margin-bottom: 86px;
 }
@@ -368,6 +370,9 @@ li {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .body-store__wrap:not(:last-child) {
+    margin-bottom: 65px;
+  }
   .store__title {
     margin-bottom: 50px;
   }
@@ -390,6 +395,9 @@ li {
 @media (max-width: 560px) {
   .body-store__items {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .body-store__wrap:not(:last-child) {
+    margin-bottom: 45px;
   }
 }
 
