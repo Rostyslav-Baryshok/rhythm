@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+@font-face {
+  font-family: CalSans;
+  font-display: swap;
+  src: url(../fonts/CalSans-SemiBold.woff2) format("woff2"),
+    url(../fonts/CalSans-SemiBold.woff) format("woff");
+  font-weight: 400;
+  font-size: normal;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+body {
+  line-height: 1;
+  font-family: Poppins;
+  color: $secondary-dark;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: CalSans;
+  color: $main-dark;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.2;
+}
+.title span {
+  color: $accent-color;
+}
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 38px;
+  }
+}
+
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.page {
+  flex: 1 1 auto;
+}
+// .page__main {
+// }
+// .page__store {
+// }
+// .page__categories {
+// }
+// .page__brands {
+// }
+// .page__why {
+// }
+// .page__reviews {
+// }
+// .page__favorite {
+// }
