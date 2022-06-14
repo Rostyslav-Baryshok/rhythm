@@ -194,6 +194,7 @@ li {
 
 .actions-main__button {
   text-align: center;
+  cursor: pointer;
   padding: 18.5px 48px;
   background-color: #ff6428;
   border-radius: 40px;
@@ -1086,10 +1087,12 @@ li {
   cursor: pointer;
   border-radius: 8px;
   background-color: #c4c4c4;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover {
   background-color: #adadad;
+  color: #e1e1e1;
 }
 
 .show-modal {

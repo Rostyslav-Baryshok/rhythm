@@ -35,7 +35,9 @@
             <h1 class="main__title">Browse top quality <span>Guitars</span> online</h1>
             <p class="main__text">Explore 50k+ latest collections of branded guitars online with Rhythm.</p>
             <div class="main__actions actions-main">
-              <a href="#" class="actions-main__button example">Get the App</a>
+              <!-- <a href="#" class="actions-main__button example">Get the App</a> -->
+              <button class="actions-main__button example" type="button" id='show' onClick='showDialog()'>
+                Get the App</button>
 
               <div class="actions-main__icon">
                 <img src="img/main/app-and-google.svg" alt="AppStore Google Play">
@@ -386,8 +388,8 @@
     </footer>
     <!-- modal -->
     <div class="modal">
-      <div class="modal-content">
-        <span class="close-button">&times;</span>
+      <div id='dialog' class="modal-content">
+        <button id='close' onClick='closeDialog()' class="close-button">&times;</button>
         <h2 class="modal__title title">Choose your <span>operating</span> system</h2>
         <ul class="modal__list">
           <li class="modal__item">
@@ -407,6 +409,7 @@
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/modal.js"></script>
+  <script src="./js/scroll.js"></script>
 </body>
 
 </html>
