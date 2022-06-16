@@ -1129,7 +1129,7 @@ li {
     justify-content: center;
   }
   .modal-content {
-    min-height: 20rem;
+    height: 25rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
